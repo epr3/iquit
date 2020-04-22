@@ -5,6 +5,10 @@ $color3: #a2d6f9ff;
 $color4: #fcf300ff;
 $color5: #ffc600ff;
 
+html {
+  overflow: hidden;
+}
+
 body {
   font-family: "Raleway", sans-serif;
   background: $color2;
@@ -13,7 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   overflow: hidden;
   h1 {
     font-weight: 700;
