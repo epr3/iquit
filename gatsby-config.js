@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/camelcase */
 module.exports = {
+  pathPrefix: "/iquit",
   siteMetadata: {
     title: `iQuit.ro`,
     description: `Genereaza preaviz de demisie cat ai clipi!`,
@@ -28,6 +29,12 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png` // This path is relative to the root of the site.
+      }
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-149564425-1"
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
